@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".LearnerModeActivity">
+
+    <Button
+        android:id="@+id/mainMenu"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hex5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="49dp"
+        android:onClick="menu"
+        android:text="MAIN MENU"
+        android:textColor="@android:color/background_light" />
+
+    <ImageView
+        android:id="@+id/hex5"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_below="@+id/pent3"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/blue_hexagon"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <ImageView
+        android:id="@+id/square4"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="217dp"
+        app:srcCompat="@drawable/red_square" />
+
+    <ImageView
+        android:id="@+id/square5"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/red_square" />
+
+    <ImageView
+        android:id="@+id/trap4"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="194dp"
+        app:srcCompat="@drawable/orange_trap" />
+
+    <ImageView
+        android:id="@+id/hex2"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="144dp"
+        app:srcCompat="@drawable/blue_hexagon"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <ImageView
+        android:id="@+id/hex3"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="-194dp"
+        app:srcCompat="@drawable/blue_hexagon"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <ImageView
+        android:id="@+id/hex4"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/blue_hexagon"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <ImageView
+        android:id="@+id/hex1"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/blue_hexagon"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <ImageView
+        android:id="@+id/tri2"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/green_triangle" />
+
+    <ImageView
+        android:id="@+id/tri3"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/green_triangle" />
+
+    <ImageView
+        android:id="@+id/tri4"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/green_triangle" />
+
+    <ImageView
+        android:id="@+id/tri5"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/green_triangle" />
+
+    <ImageView
+        android:id="@+id/tri1"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/green_triangle" />
+
+    <ImageView
+        android:id="@+id/trap2"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/orange_trap" />
+
+    <ImageView
+        android:id="@+id/trap1"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/orange_trap" />
+
+    <ImageView
+        android:id="@+id/trap5"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/orange_trap" />
+
+    <ImageView
+        android:id="@+id/trap3"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/orange_trap" />
+
+    <ImageView
+        android:id="@+id/quar2"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/quarter_circle" />
+
+    <ImageView
+        android:id="@+id/quar3"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/quarter_circle" />
+
+    <ImageView
+        android:id="@+id/quar4"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/quarter_circle" />
+
+    <ImageView
+        android:id="@+id/quar5"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/quarter_circle" />
+
+    <ImageView
+        android:id="@+id/semi2"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/pink_semicircle" />
+
+    <ImageView
+        android:id="@+id/semi3"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/pink_semicircle" />
+
+    <ImageView
+        android:id="@+id/semi4"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/pink_semicircle" />
+
+    <ImageView
+        android:id="@+id/semi5"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/pink_semicircle" />
+
+    <ImageView
+        android:id="@+id/semi1"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="213dp"
+        app:srcCompat="@drawable/pink_semicircle" />
+
+    <ImageView
+        android:id="@+id/square2"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/red_square" />
+
+    <ImageView
+        android:id="@+id/square3"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/red_square" />
+
+    <ImageView
+        android:id="@+id/square1"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/red_square" />
+
+    <ImageView
+        android:id="@+id/pent2"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_alignBottom="@+id/square5"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/yellow_pentagon" />
+
+    <ImageView
+        android:id="@+id/pent3"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="62dp"
+        app:srcCompat="@drawable/yellow_pentagon" />
+
+    <ImageView
+        android:id="@+id/pent1"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        app:srcCompat="@drawable/yellow_pentagon" />
+
+    <ImageView
+        android:id="@+id/pent5"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/yellow_pentagon" />
+
+    <ImageView
+        android:id="@+id/pent4"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="-144dp"
+        app:srcCompat="@drawable/yellow_pentagon" />
+
+    <ImageView
+        android:id="@+id/quar1"
+        android:layout_width="98dp"
+        android:layout_height="86dp"
+        android:layout_above="@+id/quar3"
+        app:srcCompat="@drawable/quarter_circle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/goBtn"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:text="ANSWER: "
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hex5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/hex5"
+        android:layout_marginBottom="72dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hintBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="58dp"
+        android:layout_marginStart="58dp"
+        android:text="Need Help?"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/hintBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:onClick="hintClick"
+        android:text="HINT"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/goBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignTop="@+id/inputText"
+        android:layout_marginLeft="-84dp"
+        android:layout_marginStart="-84dp"
+        android:layout_toEndOf="@+id/hintBtn"
+        android:layout_toRightOf="@+id/hintBtn"
+        android:onClick="checkAnswer"
+        android:text="Go"
+        android:textColor="@android:color/background_light" />
+
+    <TextView
+        android:id="@+id/commandView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="121dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pointsView"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Points: 0"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
